@@ -41,7 +41,7 @@ Example Playbook
         password: "us3rp@ssw0rd"
         roles: "tomcat"        
   roles:
-    - role: zaxos.tomcat-ansible-role
+    - role: tomcat-ansible-role
 ```
 
 Role Variables
