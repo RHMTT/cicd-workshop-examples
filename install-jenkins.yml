@@ -1,0 +1,5 @@
+---
+- hosts: jenkins
+  tasks:
+  - include_role:
+      name: jenkins-pipeline

@@ -1,0 +1,7 @@
+---
+- name: create ssh_key
+  hosts: jenkins
+  become_user: jenkins
+  tasks:
+  - openssh_keypair:
+      path: ~/.ssh/id_rsa
